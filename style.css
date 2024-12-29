@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.child {
+  width: 400px;
+  height: 250px;
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 30px;
+  border: 2px solid black;
+}
+.child1 {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 160px;
+}
+.child-a img {
+  width: 80px;
+  height: 60px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.checked {
+  color: green;
+}
+.child-b {
+  margin-top: 15px;
+}
+.para {
+  padding-top: 40px;
+  margin-left: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.bottom-left {
+  padding-left: 20px;
+}
+.bottom-right a {
+  text-decoration: none;
+  padding-right: 20px;
+  color: black;
+}
